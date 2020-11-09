@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first site</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <style>
+        #an1 {}
+
+        table {
+            background: green;
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="#an1">l1</a></li>
+        <li><a href="#an1">l1</a></li>
+        <li><a href="#an1">l1</a></li>
+    </ul>
+    <h1>Привет это моя первая страница)))</h1>
+    <ul>
+        <li><mark><b>H</b></mark>iperText</li>
+        <li><mark><b>T</b></mark>ransfer</li>
+        <li><mark><b>P</b></mark>rotocol</li>
+        <li><mark><b>S</b></mark>ecure</li>
+    </ul>
+    <div>
+        <img src="images/ssl-cert.jpg" alt="text" width="300px">
+    </div>
+</body>
+<p1>
+    Поговорим о <strong>HTTPS</strong>. Как вы уже могли заметить, аббревиатура данного протокола имеет в окончании
+    литеру<b>«S»</b>, что как бы намекает на то, что <i>речь пойдёт<b> о безопасном соединении</b></i> — последняя буква
+    расшифровывается как <a href="http//google.com">"Secure"</a> «Безопасное» </p1>
+<hr id="an1">
+<table border="1">
+    <thead>
+        <tr>
+            <th colspan="3">Ячейка в шапке таблицы</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Ячейка</td>
+            <td>Ячейка</td>
+            <td rowspan="3">Ячейка</td>
+        </tr>
+        <tr>
+            <td colspan="2">Ячейка</td>
+        </tr>
+        <tr>
+            <td>Ячейка</td>
+            <td>Ячейка</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">Ячейка подвал</td>
+        </tr>
+    </tfoot>
+</table>
+<a href="http://google.com">google</a>
+
+</html>
